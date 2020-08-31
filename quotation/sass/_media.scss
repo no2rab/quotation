@@ -1,0 +1,46 @@
+﻿/* ------------------------------ media -------------------------- */
+.xl-hide {
+    display: none;
+}
+
+.xl-show {
+    display: inline-block;
+}
+/* 桌面 大螢幕 width lg  */
+@media (min-width: 1200px) {
+}
+/* 桌面 中螢幕 width md  */
+@media (max-width: 992px) {
+    /* media */
+    .md-show {
+        display: inline-block;
+    }
+
+    .md-hide {
+        display: none;
+    }
+}
+
+/* 桌面 平板 width sm  */
+@media (max-width: 768px) {
+    /* media */
+    .sm-hide {
+        display: none;
+    }
+
+    .sm-show {
+        display: inline-block;
+    }
+}
+
+/* 手機 width xs  */
+@media (max-width: 480px) {
+    /* media */
+    .xs-show {
+        display: inline-block;
+    }
+
+    .xs-hide {
+        display: none;
+    }
+}

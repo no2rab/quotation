@@ -1,0 +1,69 @@
+﻿/*_tab 表格 ----------------------------*/
+.tab- {
+    &basic {
+        & {
+            color: $color-thr-m;
+            text-align: center;
+            margin: 1em 0 3em 0;
+        }
+
+        th, td {
+            vertical-align: middle;
+            padding: .6em 1em;
+            border-top: 1px solid $color-thr-l;
+            border-bottom: 1px solid $color-thr-l;
+        }
+
+        th {
+            color: #000;
+            font-weight: bold;
+            background-color: $color-main-l;
+        }
+
+        td {
+
+            &:first-child, &:last-child {
+                text-align: left;
+            }
+        }
+
+        tbody {
+            td:first-child {
+                color: $color-thr-d;
+            }
+        }
+
+        tfoot {
+            color: $color-thr-d;
+
+            td:first-child {
+                text-align: right;
+            }
+        }
+    }
+}
+
+.th- {
+    &price {
+        white-space: nowrap;
+    }
+}
+
+.td- {
+    &item {
+        width: 8em;
+    }
+
+    &price {
+        text-align: right;
+    }
+
+    &right {
+        text-align: right;
+    }
+
+    &total {
+        background-color: $color-main-l;
+        font-weight: bold;
+    }
+}

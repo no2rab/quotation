@@ -1,0 +1,76 @@
+﻿/* _frame 頁面結構 ----------------------*/
+html, body {
+    color: #333;
+    font-size: $small;
+    font-family: 'Microsoft JhengHei',Verdana,Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+.wrap {
+    width: 900px;
+    max-width: 95%;
+    height: 95vh;
+    margin: 2em auto;
+}
+
+h1 {
+    color: $color-thr-d;
+    font-size: $largest;
+    font-weight: normal;
+    text-align: center;
+    padding: .3em 0;
+    margin-bottom: 1em;
+    border-bottom: 1px solid $color-main-m;
+
+    span {
+        color: $color-thr-m;
+        font-size: $small;
+        margin-right: 1em;
+    }
+}
+
+h4 {
+    font-size: $medium;
+}
+
+p {
+    color: $color-thr-m;
+    margin: .5em 0;
+}
+
+.content {
+    padding: 1em 0;
+}
+
+.sitemap {
+    border: 1px solid $color-main-l;
+    border-radius: 3px;
+    overflow: hidden;
+
+    img {
+        max-width: 100%;
+        display: block;
+    }
+}
+
+.copyright {
+    color: $color-thr-m;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 4vh;
+    left: 0;
+    right: 0;
+}
+
+.logo-rab {
+    background: url(../img/logo_MStudio.png) no-repeat bottom center;
+    background-size: contain;
+    display: inline-block;
+    margin: 0 .5em;
+    width: 120px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+}

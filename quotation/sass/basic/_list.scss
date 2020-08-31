@@ -1,0 +1,16 @@
+﻿/* _list 列表樣式 --------------------------*/
+.list- {
+    &dot {
+        color: $color-main-d;
+        margin: .5em 0 .5em 1.5em;
+
+        li {
+            list-style: disc;
+            margin-bottom: .4em;
+        }
+
+        p {
+            color: $color-thr-m;
+        }
+    }
+}

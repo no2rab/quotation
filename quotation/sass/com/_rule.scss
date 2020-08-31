@@ -1,0 +1,22 @@
+﻿/*_rule ----------------------*/
+.rule {
+    & {
+        border: 1px solid $color-main-l;
+        border-radius: 3px;
+        padding: 20px 20px 10px 20px;
+    }
+
+    h3 {
+        font-size: $medium;
+        margin-top: 2em;
+        margin-bottom: .5em;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    p {
+        margin-bottom: .5em;
+    }
+}
