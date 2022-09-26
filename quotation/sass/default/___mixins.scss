@@ -1,9 +1,9 @@
 // *
 // background-gradient
 // **
-@mixin background-gradient ( $start, $end ) {
+@mixin background-gradient($start, $end) {
     background-color: ($start + $end)/2;
-    FILTER: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{$start}, endColorstr=#{$end},GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{$start}, endColorstr=#{$end},GradientType=0 );
     background-image: -webkit-gradient(linear, left top, left bottom, from($start), to($end));
     background-image: -webkit-linear-gradient(top, $start, $end);
     background-image: -moz-linear-gradient(top, $start, $end);
@@ -12,7 +12,7 @@
     background-image: linear-gradient(top bottom, $start, $end);
 }
 
-@mixin background-alpha-gradient ( $start, $end, $solid ) {
+@mixin background-alpha-gradient($start, $end, $solid) {
     background: $solid;
     background: -webkit-gradient(linear, left top, left bottom, from($start), to($end));
     background: -webkit-linear-gradient(top, $start, $end);
@@ -22,7 +22,7 @@
     background: linear-gradient(top bottom, $start, $end);
 }
 
-@mixin background-alpha-horizontal-gradient ( $start, $end, $solid ) {
+@mixin background-alpha-horizontal-gradient($start, $end, $solid) {
     background: $solid;
     background: -webkit-gradient(linear, left top, right top, from($start), to($end));
     background: -webkit-linear-gradient(left, $start, $end);
@@ -35,7 +35,7 @@
 // *
 // position middle
 // **
-@mixin position-middle($width, $height, $position: "") {
+@mixin position-middle($width, $height, $position: '') {
     top: 50%;
     left: 50%;
     width: $width;
@@ -56,14 +56,13 @@
 // *
 // animation
 // **
-@mixin transition($duration,$ease,$delay) {
+@mixin transition($duration, $ease, $delay) {
     -webkit-transition: all $duration $ease $delay;
     -moz-transition: all $duration $ease $delay;
     -o-transition: all $duration $ease $delay;
     -ms-transition: all $duration $ease $delay;
     transition: all $duration $ease $delay;
 }
-
 
 // *
 // extend
@@ -106,7 +105,7 @@
     word-break: break-all;
 }
 
-// 底圖置換取代文字
+// fuction
 %img-btn {
     text-align: left;
     text-indent: -9999px;
@@ -123,18 +122,19 @@
 
 %dnd-msg {
     position: absolute;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     top: 50%;
     left: 50%;
-    padding: .5em;
+    padding: 0.5em;
     font-size: $medium;
     margin: -1em 0 0 -5em;
 }
 
 .clearfix {
-    &:before, &:after {
-        content: "";
+    &:before,
+    &:after {
+        content: '';
         display: table;
         height: 0;
         font-size: 0;
