@@ -1,82 +1,83 @@
 ﻿/* _frame 頁面結構 ----------------------*/
-html,body {
-  color: #333333;
-  font-family: "Microsoft JhengHei", Verdana, Arial, Helvetica, sans-serif;
-  font-size: $small;
-  line-height: 1.4;
+html,
+body {
+    color: #333333;
+    font-family: 'Microsoft JhengHei', Verdana, Arial, Helvetica, sans-serif;
+    font-size: $small;
+    line-height: 1.4;
 }
 
 .wrap {
-  width: 900px;
-  max-width: 95%;
-  height: 97vh;
-  margin: 2em auto;
+    width: 900px;
+    max-width: 95%;
+    height: 97vh;
+    margin: 0 auto;
 }
 
 h1 {
-  margin-bottom: 1em;
-  padding: .3em 0;
-  text-align: center;
-  color: $color-thr-d;
-  border-bottom: 1px solid $color-main-m;
-  font-size: $largest;
-  font-weight: normal;
+    margin-bottom: 1em;
+    padding: 0.3em 0;
+    text-align: center;
+    color: $color-thr-d;
+    border-bottom: 1px solid $color-main-m;
+    font-size: $largest;
+    font-weight: normal;
 
-  span {
-    margin-right: 1em;
-    color: $color-thr-m;
-    font-size: $small;
-  }
+    span {
+        margin-right: 1em;
+        color: $color-thr-m;
+        font-size: $small;
+    }
 }
 
 h2 {
-  margin: 1.5em 0 .2em 0;
-  padding: .2em 0;
-  font-size: $medium;
+    margin: 1.5em 0 0.2em 0;
+    padding: 0.2em 0;
+    font-size: $medium;
 }
 
 h4 {
-  font-size: $medium;
+    font-size: $medium;
 }
 
 p {
-  margin: .5em 0;
-  color: $color-thr-m;
+    margin: 0.5em 0;
+    color: $color-thr-m;
 }
 
 .content {
-  padding: 1em 0;
+    padding: 1em 0;
 }
 
 .sitemap {
-  overflow: hidden;
-  border: 1px solid $color-main-l;
-  border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid $color-main-l;
+    border-radius: 3px;
 
-  img {
-    display: block;
-    max-width: 100%;
-  }
+    img {
+        display: block;
+        max-width: 100%;
+    }
 }
 
 .copyright {
-  position: fixed;
-  right: 0;
-  bottom: 4vh;
-  left: 0;
-  margin: 0 auto;
-  text-align: center;
-  color: $color-thr-m;
-  font-size: 12px;
+    position: fixed;
+    right: 0;
+    bottom: 4vh;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: $color-thr-m;
+    font-size: 12px;
 }
 
 .logo-rab {
-  position: relative;
-  top: 10px;
-  display: inline-block;
-  width: 120px;
-  height: 40px;
-  margin: 0 .5em;
-  background: url(../../img/logo_MStudio.png) no-repeat bottom center;
-  background-size: contain;
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    margin: 0 0.5em;
+    background: url(../img/logo_MStudio.png) no-repeat bottom center;
+    background-size: contain;
 }
