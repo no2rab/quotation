@@ -1,76 +1,78 @@
 ﻿/*_tab 表格 ----------------------------*/
 .tab- {
-  &basic {
-    & {
-      width: 100%;
-      margin: 1em 0 3em 0;
-      text-align: center;
-      color: $color-thr-m;
-    }
+    &basic {
+        & {
+            width: 100%;
+            margin: 1em 0 1em 0;
+            text-align: center;
+            color: $color-thr-m;
+        }
 
-    th,td {
-      padding: .6em 1em;
-      vertical-align: middle;
-      border-top: 1px solid $color-thr-l;
-      border-bottom: 1px solid $color-thr-l;
-    }
+        th,
+        td {
+            padding: 0.6em 1em;
+            vertical-align: middle;
+            border-top: 1px solid $color-thr-l;
+            border-bottom: 1px solid $color-thr-l;
+        }
 
-    th {
-      color: #000000;
-      background-color: $color-main-l;
-      font-weight: bold;
-    }
+        th {
+            color: #000000;
+            background-color: $color-main-l;
+            font-weight: bold;
+        }
 
-    td {
-      &:first-child,&:last-child {
-        text-align: left;
-      }
-    }
+        td {
+            &:first-child,
+            &:last-child {
+                text-align: left;
+            }
+        }
 
-    tbody {
-      td:first-child {
-        color: $color-thr-d;
-      }
-    }
+        tbody {
+            td:first-child {
+                color: $color-thr-d;
+            }
+        }
 
-    tfoot {
-      color: $color-thr-d;
+        tfoot {
+            color: $color-thr-d;
 
-      td:first-child {
-        text-align: right;
-      }
+            td:first-child {
+                text-align: right;
+            }
+        }
     }
-  }
 }
 
 .th- {
-  &price {
-    text-align: right;
-    white-space: nowrap;
-  }
+    &price {
+        text-align: right;
+        white-space: nowrap;
+    }
 }
 
 .td- {
-  &item {
-    width: 8em;
-  }
-  &detial {
-    width: 20em;
-  }
-  &size {
-    text-align: center;
-  }
+    &item {
+        width: 9em;
+    }
+    &detial {
+        width: 20em;
+    }
+    &size {
+        text-align: center;
+    }
 
-  &price {
-    text-align: right;
-  }
+    &price {
+        text-align: right;
+    }
 
-  &right {
-    text-align: right;
-  }
+    &right {
+        text-align: right;
+    }
 
-  &total {
-    background-color: $color-main-l;
-    font-weight: bold;
-  }
+    &total {
+        background-color: $color-main-l;
+        font-weight: bold;
+    }
 }

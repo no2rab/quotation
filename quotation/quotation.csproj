@@ -71,6 +71,7 @@
     <Content Include="img\dingbandon_phone.png" />
     <Content Include="img\dingbandon_pos.png" />
     <Content Include="img\dingbandon_device.png" />
+    <Content Include="img\lisse_flow.png" />
     <Content Include="img\logo_MStudio.png" />
     <Content Include="img\logo_rabStudio.png" />
     <Content Include="img\no2studio.png" />

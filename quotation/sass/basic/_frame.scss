@@ -51,12 +51,17 @@ p {
 
 .sitemap {
     overflow: hidden;
-    border: 1px solid $color-main-l;
+
+    //border: 1px solid $color-main-l;
     border-radius: 3px;
 
+    h2 {
+        text-align: center;
+    }
     img {
         display: block;
-        max-width: 100%;
+        max-width: 65%;
+        margin: 0 auto;
     }
 }
 

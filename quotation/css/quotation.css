@@ -208,7 +208,8 @@ ul, ol {
 }
 
 /* _frame 頁面結構 ----------------------*/
-html, body {
+html,
+body {
   color: #333333;
   font-family: "Microsoft JhengHei", Verdana, Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -258,12 +259,15 @@ p {
 
 .sitemap {
   overflow: hidden;
-  border: 1px solid #ede3cc;
   border-radius: 3px;
+}
+.sitemap h2 {
+  text-align: center;
 }
 .sitemap img {
   display: block;
-  max-width: 100%;
+  max-width: 65%;
+  margin: 0 auto;
 }
 
 .copyright {
@@ -291,11 +295,12 @@ p {
 /*_tab 表格 ----------------------------*/
 .tab-basic {
   width: 100%;
-  margin: 1em 0 3em 0;
+  margin: 1em 0 1em 0;
   text-align: center;
   color: #777777;
 }
-.tab-basic th, .tab-basic td {
+.tab-basic th,
+.tab-basic td {
   padding: 0.6em 1em;
   vertical-align: middle;
   border-top: 1px solid #e6e6e6;
@@ -325,7 +330,7 @@ p {
 }
 
 .td-item {
-  width: 8em;
+  width: 9em;
 }
 .td-detial {
   width: 20em;
